@@ -1,4 +1,4 @@
-H-Tron2
+# H-TRON2 - extensions of a simple DOS game
 
 A classic DOS light-cycle game, extended for late-1980s PC hardware.
 
