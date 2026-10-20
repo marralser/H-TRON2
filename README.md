@@ -36,8 +36,9 @@ The game supports:
 * **Two Players** — battle another human player
 * **Keyboard control**
 * **Amstrad PC1512/PC1640 digital joystick control**
+* **a (simpler) GEM version (HTRONGEM.APP)
 
-## Five levels
+## Five levels (DOS only)
 
 **Level 1 — The original battle**
 
@@ -63,15 +64,15 @@ Good luck.
 
 ## Graphics
 
-The game runs in **640×480 VGA mode** with a centered, EGA-sized playing arena.
+The game runs in the individual graphics modes, with a centered, EGA-sized playing arena for EGA, VGA, a larger area for Hercules and a smaller one for CGA. The GEM version scales with window size.
 
 Color is deliberately used in the style of a late-1980s DOS game rather than attempting a modern graphical makeover. The Trons, trails, obstacles and hazards use the familiar bright palette of period PC graphics.
 
-The opening screen uses CP437/ANSI artwork, continuing the DOS aesthetic before the game switches into graphics mode.
+The opening screen in DOS uses CP437/ANSI artwork, continuing the DOS aesthetic before the game switches into graphics mode.
 
 ## AdLib sound
 
-The extended edition supports **AdLib / Yamaha OPL2 FM sound**.
+The extended DOS edition supports **AdLib / Yamaha OPL2 FM sound**.
 
 Rather than sampled audio, H-Tron writes directly to the classic AdLib registers at ports `388h/389h`. Short synthesized effects accompany turns, collisions, round starts, hazards and level changes.
 
